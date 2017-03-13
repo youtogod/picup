@@ -1,0 +1,36 @@
+.productimg{
+    display: block;top:0;bottom:0;left:0;right:0;margin:auto;position: absolute;max-height: 100%;max-width: 100%;
+}
+.productdiv
+{
+		 width: 110px;
+    height: 110px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    float: left;
+    text-align: center;position: relative;
+}
+.mid .center textarea
+{height: 105px;
+    resize: none;
+    width: 60%;
+    display: block;
+    font-size: 16px;
+    float: right;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+.mid .center
+{
+overflow: hidden;
+border-bottom:2px solid #E8E5E5;
+}
+.divgroup{
+overflow: hidden;
+}
+.centerh3{
+    margin-left:30px; 
+        margin-right: 80px;
+    padding-bottom: 20px;
+    border-bottom:1px solid #c2c2c2;
+}

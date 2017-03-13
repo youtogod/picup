@@ -1,0 +1,268 @@
+body{
+	
+}
+#top{
+	color:#44BB5C;
+}
+a{
+	cursor:pointer;
+}
+a:hover{
+	text-decoration:none;
+}
+.all_content{
+    width: 1280px;
+    margin:40px auto;
+    background-color:white;
+    padding:10px;
+    
+    position:relative;
+}
+.sereply,.seereply{
+	margin-top:10px;
+}
+.username{
+    width: 100%;
+    height: 140px;
+
+}
+div{
+	cursor:default;
+}
+.img_goods{
+	width:230px;
+	height:230px;
+	position:relative;
+	text-align: center;
+	border:1px solid grey;
+	margin:auto;
+}
+.img_goods img{
+display:block;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	max-width:100%;
+	max-height:100%;
+    width:auto;
+
+}
+.oneuser{
+	border-radius: 20px;
+	margin:5px 1px;
+}
+#allevalute{
+	word-break:break-all;
+}
+.seereply{
+	margin-right:10px;
+	
+}
+#chat img{
+	width:40px;
+	height:40px;
+	}
+.my_goods p{
+	text-align:center;
+	}
+.reply_one{
+	height:40px;
+	width:90%;
+	margin-top:5px;
+	
+}
+#chat_mes{
+	height:50px;
+	width:100%;
+	}
+	.modal-footer{
+	height:100px;
+	}
+	
+.centre .face
+{
+	width:40px;
+	height:40px;
+}
+.centre .time
+{
+	float:right;
+	margin-top:10px;
+}
+.centre .table .title
+{
+	background-color: #eee;
+}
+.centre .table .picture
+{
+	width:120px;
+	height:120px;
+}
+.centre .table .ele
+{
+	width:70px;
+	height:70px;
+	margin-top:50px;
+}
+.love
+{
+	list-style-type:none;
+	padding-left:0;
+}
+.love li
+{
+	display: inline;
+}
+.none input
+{
+	width:90%;
+	height:40px;
+	float:left;
+}
+.eva_table span img,.eva_table p img
+{
+	width:40px;
+	height:40px;
+}
+.reply
+{
+	width:90%;
+	display:none;
+	margin-left:10%;
+}
+.eva_table
+{
+	width:100%;
+	display: none;
+}
+.replytext
+{
+	
+	width:80%;
+	height:40px;
+	margin-left:10%;
+}
+.replyinput
+{
+	display:none;
+}
+.none
+{
+	display: none;
+}
+.head ul{
+    right: 10px;
+    position: absolute;
+}
+.head{
+    background-color:#44BB5C;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+.username .left{
+    width:140px;
+    float: left;
+    height: 100%;
+    border: 1px solid #EEEEEE;
+    margin-left:4.5%;
+}
+.username .left img{
+    width: 100%;
+    height: 100%;
+
+
+}
+.username .right{
+    width: 79%;
+    float: right;
+    border-bottom: 1px solid #EEEEEE;
+    height: 100%;
+}
+.head{
+    text-align: center;
+    color: white;
+    height: 100px;
+    background-color: #44BB5C;
+}
+.head p{
+    color: white;
+    height: 40%;
+}
+.head .title{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.content{
+    position: relative;
+    margin-top: 40px;
+min-height:1950px;
+    
+}
+
+.content .left{
+    left: 0px;
+    width: 20%;
+    position: absolute;
+   
+}
+.content .right{
+    left: 22%;
+    width: 78%;
+   
+    
+    position:relative;
+}
+
+.left_li{
+
+    width: 100%;
+    border: 1px solid #298BA3;
+    border-radius: 20px;
+    height: 250px;
+    padding: 1px 0px;
+
+}
+.left_li p{
+    margin-top: 10px;
+    font-size: 18px;
+padding-left: 10px;
+    height: 15%;
+    border-radius: 5px;
+    line-height: 35px;
+
+}
+
+.content .left h4{
+    background-color: #EEEEEE;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.right h4{
+    padding-left: 7px;
+    background-color: #EEEEEE;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.grade{
+    color: #a94442;
+    font-weight: bolder;
+}
+#page{
+	height:32px;
+	width:40px;
+	text-align:center;
+}
+.page{
+	left:37.5%;
+	width:300px;
+	position:absolute;
+	bottom:-50px;
+}

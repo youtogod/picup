@@ -1,0 +1,97 @@
+.login_logo{
+	margin-bottom:30px;
+}
+.content{
+	margin:20px auto;
+	width:1000px;
+	height:600px;
+}
+.content .head
+{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.content .head .left
+{
+	float:left;
+	width:300px;
+	position:relative;
+}
+.content .head .right
+{
+	float:right;
+	position:relative;
+	width:220px;
+	margin-top:20px;
+}
+.content .head .right ul
+{
+	width:100%;
+}
+.content .head .right li
+{
+	float:left;
+	display:inline;
+	width:60px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.content .head .right ul span
+{
+	float:left;
+}
+.content .head .left span
+{
+	position:absolute;
+	    bottom: 0;
+    font-size: 25px;
+}
+#myModal2{
+	width:350px;
+	background-color:white;
+	padding:10px 0px;
+	position:relative;
+	left:60%;
+	top:25%;
+}
+.inputgroup{
+	height:30px;
+	margin-top:34px;
+	
+}
+.login_logo{
+	text-align:center;
+}
+#myModal3{
+	width:600px;
+	background-color:white;
+	padding:10px 0px;
+	position:relative;
+	border-right:1px solid #eee;
+	min-height:500px;
+	float:left;
+}
+.logo
+{
+	float:left;
+	margin-left:100px;
+}
+.choose
+{
+	width:100%;
+	margin-left:25px;
+}
+.choose input
+{
+	width:50px;
+	font-size:17px;
+}
+.choose span
+{
+	font-size:17px;
+}
+
+h1{
+	text-align:center;
+}

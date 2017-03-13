@@ -1,0 +1,838 @@
+ body
+{
+	background-color:#f5f5f5;
+	padding:0;
+	margin:0;
+	height:100%;
+}
+
+.c-hand{curosr:pointer;}
+*
+{
+	padding:0;
+	margin:0;
+}
+.no_love{
+	width:100%;
+	margin-top:10px;
+}
+.no_love img
+{
+	display:block;margin:auto;
+}
+.all_loading
+{
+	width:100%;
+	margin-top:30px;
+}
+.all_loading img
+{
+	display:block;
+	margin:auto;
+	width:85px;
+	height:81px;
+}
+.top1 .logo
+{
+	background:url(../../img/logo/bat.png) no-repeat 0px 0px;
+}
+.allcontent
+{
+	width:1280px;
+	margin:auto;
+	min-height: 800px;
+}
+.content
+{
+	width:100%;
+}
+.head
+{
+    height: 100px;
+    background-color: #235fa7;
+    text-align: center;
+    color:white;
+    line-height: 100px;
+    margin-bottom:20px;
+}
+.head span
+{
+	font-size:40px;
+}
+
+.content .left
+{
+	float:left;
+	width:135px;
+}
+.content .left ul
+{
+	background-color: white;
+	width:83%;
+			-webkit-padding-start:0;
+	-webkit-margin-before: 0;
+	    -webkit-margin-after: 0;
+	    padding:10px;
+	    margin:0;
+	    text-align:left;
+	    line-height:40px;
+}
+.content .left ul li
+{
+	border-bottom: 1px solid #e6e6e6;
+	width:95%;
+	list-style-type:none;
+	height:40px;
+	font-size:20px;
+}
+.content .left ul li:hover
+{
+	cursor:pointer;
+}
+.content .left ul li:last-child
+{
+	border-bottom:0;
+}
+.content .right
+{
+	float:right;
+	width:1128px;
+	min-height: 700px;
+}
+.content .right .small
+{
+	background-color: white;
+}
+.content .right .small li
+{
+display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height:50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom:1px solid #e1e1e1;
+    padding:0;
+    padding-bottom:5px;
+}
+.content .right .small li:hover
+{
+    border-bottom:1px solid #fe5600;
+}
+
+.content .right .myorder
+{
+	width:100%;
+	-webkit-padding-start:0;
+	-webkit-margin-before: 0;
+	    -webkit-margin-after: 0;
+	    padding:0;
+	    margin:0;
+	    font-size:20px;
+	    background-color:white;
+	    margin-bottom:30px;
+}
+.content .right .myorder span
+{
+	margin-left: -10px;
+    margin-right: -10px;
+    color:#e6e6e6;
+}
+.content .right .myorder li
+{
+	display: inline;
+    padding-left: 82px;
+    padding-right: 83px;
+    line-height:50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom:5px solid #e1e1e1;
+} 
+.content .right .myorder li:hover
+{
+	 border-bottom:5px solid #fe5600;
+	 cursor:pointer;
+}
+.content .right .alldelete .del_icon
+{
+	background: url("../../img/customer/icon_1.png") 
+
+no-repeat -375px -140px;
+	width:50px;
+	height:50px;
+}
+.content .right .alldelete
+{
+		width:50px;
+	height:50px;
+	position:fixed;
+}
+.content .right .title
+{
+	width: 99.8%;
+	line-height:50px;
+	background-color:#f0f0f0;
+	border-top:1px solid #e5e5e5;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	overflow: hidden;
+}
+.content .right .title .allmanage
+{
+	float:right;
+	margin-right:20px;
+}
+.content .right .title .clothes
+{
+	width:50px;
+	height:50px;
+	background: url("../../img/customer/icon_1.png") 
+
+no-repeat -60px -66px;
+	float:left;
+}
+.content .right .title .delete
+{
+	background: url("../../img/customer/icon_1.png") 
+
+no-repeat -370px -64px;
+}
+.content .right .title .shoe
+{
+	background: url("../../img/customer/icon_1.png") 
+
+no-repeat -135px -66px;
+}
+.content .right .title .ring
+{
+	background: url("../../img/customer/icon_1.png") 
+
+no-repeat -205px -66px;
+}
+.content .right .title .titlename
+{
+	font-size:17px;
+	padding-left:43px;
+	padding-right:43px;
+	float:left;
+}
+.content .right .title .titlename:hover
+{
+	cursor:pointer;
+}
+.allmanage:hover{
+	cursor:pointer;
+}
+.content .right .title .titlename1
+{
+	font-size:17px;
+
+	float:left;
+}
+.content .right .everyday
+{
+	width:100%;
+}
+.content .right .everyday .up
+{
+	width:100%;
+	overflow:hidden;
+}
+.content .right .everyday .up .up_left .timeline
+{
+	width:30px;
+	height:30px;
+	background:url("../../img/customer/icon_1.png") 
+
+no-repeat -75px -150px;
+	float:left;
+}
+.content .right .everyday .up .up_left
+{
+	float:left;
+	line-height:30px;
+	padding-right:10px;
+}
+.content .right .everyday .up .up_right
+{
+float: right;
+    border-bottom: 1px solid #c2c2c2;
+    width: 87%;
+    height: 15px;
+}
+.content .right .everyday .up .up_count
+{
+	font-size:13px;
+}
+.content .right .everyday .bottom
+{
+	width:95%;
+	margin-left:15px;
+	overflow:hidden;
+	padding:15px;
+	border-left:1px solid #c2c2c2;
+}                                                      
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                                                       
+
+                       
+.content .right .everyday .bottom .eve_good
+{
+	width:200px;
+	float:left;
+	border:1px solid #c2c2c2;
+	background-color: white;
+	margin-right:12px;
+	margin-bottom:20px;
+}
+.content .right .everyday .bottom .eve_img
+{
+	width:200px;
+	height:200px;
+	position: relative;
+	text-align: center;
+}
+.content .right .everyday .bottom .eve_good .eve_cover
+{
+	position: absolute;
+	width:200px;
+	top:0;
+	height:200px;
+	z-index:1001;
+	opacity: 0.4;
+	background: #000 no-repeat;
+	display: none;
+}
+.content .right .everyday .bottom .eve_good .eve_cover 
+
+.eve_delete
+{
+	position: absolute;
+	width:30px;
+	top:0;
+	right:0;
+	height:30px;
+	background: url("../../img/customer/icon_1.png") 
+
+no-repeat -385px -140px;
+}
+.content .right .everyday .bottom .eve_img img
+{
+	margin:auto;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	max-width: 100%;
+	max-height: 100%;
+}
+.content .right .everyday .bottom .eve_intro
+{
+	border-top:1px solid #c2c2c2;
+	width:180px;
+	height:80px;
+	position: relative;
+	padding:10px;
+}
+.content .right .everyday .bottom .eve_intro 
+
+.eve_price
+{
+	position: absolute;
+	left:10px;
+	bottom:10px;
+	color:red;
+}
+.content .right .everyday .bottom .eve_intro .eve_zan
+{
+	position: absolute;
+	right:10px;
+	bottom:10px;
+	color:#c2c2c2;
+}
+.content .right .everyday .bottom .eve_intro .eve_zan 
+
+.zan
+{
+	width:19px;
+	height:19px;
+	float:left;
+	background: url("../../img/customer/icon_1.png") 
+
+no-repeat -171px -156px;
+}
+.content .right .order
+{
+	width:100%;
+	background-color:white;
+	border:1px solid #e5e5e5;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-bottom:20px;
+}
+.content .right .order tr
+{
+	width:100%;
+}
+.content .right .order tr td
+{
+	padding:10px;
+		border:1px solid #e5e5e5;
+}
+.content .right .order tr td .salename
+{
+	margin-left:80px;
+	padding-right:5px;
+}
+.content .right .order tr td .ordertime
+{
+	float:right;
+}
+.content .right .order tr td .goodimg
+{
+	width:100px;
+	height:100px;
+	border:1px solid #e5e5e5;
+	position:relative;
+	text-align: center;
+	float:left;
+}
+.content .right .order tr td .goodimg img
+{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	max-width:100%;
+	max-height:100%;
+	margin:auto;
+}
+.content .right .order tr td .goodname
+{
+	width:200px;
+}
+.content .right .order tr td .intergood td
+{
+	border:0;
+}
+.all_order
+{
+	min-height:800px;
+}
+.all_order a
+{
+	color:black;
+}
+.all_order a:link,a:visited{
+ text-decoration:none;  
+}
+.all_order a:hover{
+ text-decoration:none;  
+ color:black;
+}
+.confirm
+{
+    display: block;
+    background-color: #fe5600;
+    color: white;
+    width: 80px;
+    border: 0;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom:10px;
+}
+
+/* 订单详情 */
+.top
+{
+	width:100%;
+	height:70px;
+	background-color:white;
+	border:1px solid #e5e5e5;
+	font-size: 28px;
+    line-height: 70px;
+    color:#fe5600;
+    margin-bottom:20px;
+}
+.top .topimg
+{
+	background: url("../../img/customer/icon_1.png") 
+
+no-repeat -375px -200px;
+	width:50px;
+	height:60px;
+	margin-top: 3px;
+	margin-left:10px;
+	float:left;
+	margin-right: 10px;
+}
+.content .status
+{
+	width:96%;
+	padding:1% 2%;
+	border:1px solid #e5e5e5;
+	background-color:white;
+	padding-bottom:40px;
+	margin-bottom:30px;
+}
+.content .status .step
+{
+	margin-top:20px;
+	width:100%;
+}
+.content .status .step .step_intro
+{
+	    width: 92%;
+    overflow: hidden;
+    padding: 0 3.5%;
+}
+.content .status .step .step_intro .step_eve_intro
+{
+	width:16%;
+	float:left;
+	text-align: center;
+	margin-right: 6px;
+}
+.status .step .step_img
+{
+	width: 80%;
+    padding: 2%;
+    margin: auto;
+    margin-bottom:20px;
+}
+.step .step_img .eve_stepimg
+{
+background: url("../../img/customer/icon_1.png") no-repeat -417px -290px;
+    width: 20px;
+    height: 25px;
+    float:left;
+}
+.step .step_img .eve_line
+{
+	height:12px;
+	border-bottom:1px solid #fe5600;
+	width:17%;
+	float:left;
+}
+.content .own_message
+{
+	width:96%;
+	padding:10px 2%;
+	border:1px solid #e5e5e5;
+	background-color:white;
+	padding-bottom:20px;
+	margin-bottom:30px;
+}
+.content .own_message h3
+{
+	padding-bottom:5px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.own_message p
+{
+	margin:10px 0;
+}
+.content .type
+{
+	width: 99.8%;
+	line-height:50px;
+	background-color:#f0f0f0;
+	border-top:2px solid #fe5600;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	overflow: hidden;
+}
+.content .type .typename
+{
+	font-size:17px;
+	padding-left:80px;
+	padding-right:80px;
+	float:left;
+}
+.content .order_message
+{
+	width:100%;
+	background-color:white;
+	border:1px solid #e5e5e5;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-bottom:150px;
+}
+.content .order_message tr
+{
+	width:100%;
+}
+.content .order_message tr td
+{
+		padding:10px 20px;
+		border:1px solid #e5e5e5;
+}
+.content .order_message tr td .salename
+{
+	padding-right:5px;
+}
+.content .order_message .eve_title
+{
+	margin-right:500px;
+	font-family: "SimHei";
+}
+.content .order_message .goodimg
+{
+		width:100px;
+	height:100px;
+	border:1px solid #e5e5e5;
+	position:relative;
+	text-align: center;
+	float:left;
+	margin-right:20px;
+}
+.content .order_message .order_element
+{
+	width:550px;
+	border-right:1px solid #e5e5e5;
+	overflow: hidden;
+	float:left;
+	font-size:13px;
+	color:#818181;
+}
+.content .order_message .own_info
+{
+	padding-left:30px;
+	float:left;
+	width:650px;
+	height:96px;
+	font-size:13px;
+	color:#818181;
+}
+.content .order_message .own_info .eve_info
+{
+	margin-right:20px;
+}
+.content .order_message .order_element .eve_element 
+
+.element_img
+{
+	width:70px;
+	height:70px;
+	position: relative;
+	text-align:center;
+	border:1px solid #e5e5e5;
+	margin-bottom:5px;
+}
+.content .order_message .order_element .eve_element 
+
+.element_img img
+{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	max-height: 100%;
+	max-width: 100%;
+}
+.content .order_message .order_element .eve_element
+{
+	width:70px;
+	float:left;
+	text-align: center;
+	margin-right:20px;
+}
+.content .order_message .goodimg img
+{
+		position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	max-width:100%;
+	max-height:100%;
+}
+.content .order_message .intergood td
+{
+	border:0;
+	padding:10px 0;
+}
+/*回到顶部*/
+.gotop
+{
+z-index:1002;
+position: fixed;
+bottom:50px;
+right:0;
+width:50px;
+height:50px;
+opacity: 0.4;
+background: #000 no-repeat;
+}
+.gotop img
+{
+	width:100%;
+	height:100%;
+}
+.gotop:hover
+{
+	opacity: 0.6;
+}
+
+.page1{
+    width: 300px;
+    margin: auto;
+    padding:3px;
+    height:30px;
+    margin-bottom:20px;
+    margin-top:20px;
+    text-align: center;
+   
+}
+.page2{
+    width: 300px;
+    margin: auto;
+    padding:3px;
+    height:30px;
+    margin-bottom:20px;
+    margin-top:20px;	
+    text-align: center;
+}
+.btn-page{
+	background: #7081FD;
+	color:white;
+	height:30px;
+	width:80px;
+    border:0;
+    border-radius: 5px;	
+	margin-right:10px;
+	margin-top:9px;
+	font-size:14px;
+	cursor: pointer;	
+}
+.btn-page:hover{
+	box-shadow:0px 0px 8px #8995EC;
+}
+.btn-page1{
+	color:black;
+	height:30px;
+	width:30px;
+    border:1px solid #7081FD;	
+	margin-top:9px;
+	font-size:14px;
+	cursor: pointer;	
+	margin-left:5px;
+}
+.btn-select {
+position: relative;
+display: inline-block;
+width: 150px;
+height: 50px;
+line-height:50px;
+background-color: #fff;
+font-size: 17px ;
+color: #000;
+    margin-left: 43px;
+}
+.cur_select {
+position: absolute;
+display: block;
+width: 150px;
+margin-top:10px;
+height: 30px;
+line-height: 30px;
+background:url(../../img/img_icon/icon_down.gif) no-repeat 110px center; 
+text-indent: 10px;
+border:1px solid #B5ADAD;
+}
+.btn-select:hover .cur-select {
+/* background-color: #eee; */
+}
+.btn-select select {
+position: absolute;
+top: 20px;
+left: 0;
+width: 150px;
+height: 30px;
+height:30px;
+opacity: 0;
+filter: alpha(opacity: 0;);
+font-size:14px;
+color: #000;
+}
+.btn-select select option {
+text-indent: 10px;
+}
+.btn-select select option:hover {
+background-color: #f80;
+color: #fff;
+} 
+
+.alert2{
+	width: 520px;
+	height: 220px;
+	top:50%;
+	left:50%;
+	margin-top: -170px;
+	margin-left: -300px;
+	z-index: 20000;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px 1px #696161;
+	border-radius: 5px;     
+	position: fixed;
+	background: white;
+	animation: modal 0.7s;
+	-moz-animation: modal 0.7s;
+	-webkit-animation: modal 0.7s;	
+	-o-animation: modal 0.7s;
+            display: none ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

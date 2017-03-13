@@ -1,0 +1,147 @@
+.
+.alert {
+	width: 600px;
+	height: 380px;
+	top: 50%;
+	left: 50%;
+	margin-top: -170px;
+	margin-left: -300px;
+	z-index: 20000;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px 1px #696161;
+	border-radius: 5px;
+	position: fixed;
+	display: none;
+	background: white;
+	animation: modal 0.7s;
+	-moz-animation: modal 0.7s;
+	-webkit-animation: modal 0.7s;
+	-o-animation: modal 0.7s;
+}
+
+.alert1 {
+	width: 520px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	margin-top: -170px;
+	margin-left: -300px;
+	z-index: 20000;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px 1px #696161;
+	border-radius: 5px;
+	position: fixed;
+	display: none;
+	background: white;
+	animation: modal 0.7s;
+	-moz-animation: modal 0.7s;
+	-webkit-animation: modal 0.7s;
+	-o-animation: modal 0.7s;
+}
+
+.alert2 {
+	width: 520px;
+	height: 220px;
+	top: 50%;
+	left: 50%;
+	display: none;
+	margin-top: -170px;
+	margin-left: -300px;
+	z-index: 20000;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px 1px #696161;
+	border-radius: 5px;
+	position: fixed;
+	background: white;
+	animation: modal 0.7s;
+	-moz-animation: modal 0.7s;
+	-webkit-animation: modal 0.7s;
+	-o-animation: modal 0.7s;
+}
+
+.alerta {
+	width: 520px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	display: none;
+	margin-top: -170px;
+	margin-left: -300px;
+	z-index: 20000;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px 1px #696161;
+	border-radius: 5px;
+	position: fixed;
+	background: white;
+	animation: modal 0.7s;
+	-moz-animation: modal 0.7s;
+	-webkit-animation: modal 0.7s;
+	-o-animation: modal 0.7s;
+}
+
+.alert_contenta {
+	width: 480px;
+	margin: auto;
+	height: 100%;
+}
+
+.alert_button {
+	width: 80px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 0;
+	background: #235fa7;
+	color: white;
+	margin-top: 10px;
+	position: absolute;
+	left: 260px;
+}
+
+.cover {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 10001;
+	opacity: 0.5;
+	background: #000 no-repeat;
+	display: none;
+}
+
+.cover1 {
+	position: fixed;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	background: black scroll 0% 0% none repeat;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+.alert_content {
+	width: 560px;
+	margin: auto;
+	height: 100%;
+}
+
+.alert_content1 {
+	width: 480px;
+	margin: auto;
+	height: 100%;
+}
+
+.alert_cotent_span {
+	line-height: 45px;
+	font-size: 20px;
+}
+
+.alert input {
+	width: 150px;
+	height: 25px;
+	border-radius: 2px;
+	border: 1px solid black;
+	font-size: 15px;
+}

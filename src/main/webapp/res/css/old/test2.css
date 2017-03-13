@@ -1,0 +1,42 @@
+.border{
+    border-bottom: 1px solid #cbcbcb;
+    padding:10px;
+}
+.part{
+
+    border-bottom: 1px solid #cbcbcb;
+    width:100%;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+
+}
+.part_img{
+
+    display:block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    max-width:100%;
+    max-height:100%;
+    width:auto;
+}
+.desribe{
+    width: 150px;
+    height: 300px;
+    margin-right: 15px;
+    border: 2px solid #cbcbcb;
+    display: inline-block;
+}
+.desribe_textarea{
+    display: block;
+    width:97%;
+    border: none;
+    height: 48%;
+    resize: none;
+    margin:0 0 0 0;
+}

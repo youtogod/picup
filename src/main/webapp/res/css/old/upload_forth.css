@@ -1,0 +1,408 @@
+.upcenter{
+	padding-left: 50px;
+	padding-top: 25px;
+	border-bottom:2px solid #c2c2c2;
+	overflow: hidden;
+}
+p{
+margin:0px;
+}
+.centerspan{
+	line-height: 40px;
+
+}
+
+.alerta{
+	width: 520px;
+	height: 300px;
+	top:50%;
+	left:50%;
+	display: none ;
+	margin-top: -170px;
+	margin-left: -300px;
+	z-index: 20000;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px 1px #696161;
+	border-radius: 5px;     
+	position: fixed;
+	background: white;
+	animation: modal 0.7s;
+	-moz-animation: modal 0.7s;
+	-webkit-animation: modal 0.7s;	
+	-o-animation: modal 0.7s;
+
+}
+.alert_contenta{
+	width: 480px;
+	margin: auto;height: 100%;
+}
+
+.midleft{
+    width: 300px;
+	height: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+	background:url("../../img/customer/border.png") no-repeat;
+
+}
+.midleft2{
+border: 1px solid #5353E4 ;
+}
+.adr_delete{
+	width: 30px;
+	height: 30px;
+	background: url("../../img/customer/delete.gif") no-repeat;
+	cursor:pointer;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	display:none;
+}
+#card_kind{
+color:green;
+}
+.add_card_content .button{
+margin-left:42px;
+}
+.container{
+width:500px;
+height:460px;
+display:none;
+position:fixed;
+top:50%;
+left:50%;
+margin-top:-210px;
+margin-left:-210px;
+background-color:white;
+z-index:10;
+border: 1px solid green;
+}
+.add_card_content{
+width:90%;
+margin:auto;
+}
+.add_card_content p{
+height:30px;
+
+}
+.add_card_content input{
+width:73%;
+height:30px;
+}
+.card_kind {
+    margin-left: 112px;
+   
+}
+
+.adr_select{
+	width: 30px;
+	height: 30px;
+	background: url("../../img/top/ok1.png") no-repeat;
+	cursor:pointer;
+	position: absolute;
+	right: 10px;
+	display:none;
+}
+#choseimg{
+	width: 30px;
+	height: 30px;
+	right: 0;
+	position: absolute;
+	top: 0;
+	display: none;
+}
+#addimg{
+	font-size:120px;
+	color:#C7C7C7;
+}
+.leftbutton {
+    background-color: #eeeeee;
+    
+    width: 120px;
+    
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid #e5e5e5 ;
+}
+.leftmid1{
+	margin-left: 20px;
+	display: block;
+	margin-top: 20px;
+    line-height: 30px;
+
+   
+} 
+.midright{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+cursor:pointer;
+background:url("../../img/customer/border.png") no-repeat;
+}
+.more_address_word{
+	width: 21.5%;
+	float:left;
+}
+.more_address{
+	height:50px;
+}
+#moreaddress{
+	float:left;
+}
+.midcenter{
+	padding-left: 50px;
+	margin-top: 25px;
+	border-bottom:2px solid #c2c2c2;
+	overflow: hidden;}
+.rightmid1{
+color: #C7C6C6;
+	    margin-left: 65px;
+	    width: 120px;
+	    height: 150px;
+	}
+.downmid{
+	border: 1px solid black;
+	
+	height: 260px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display:none;
+	width:400px;
+	margin-right:15px;
+}
+.downinput{
+width: 150px;
+	height: 25px;
+	border: 1px solid black;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.pay{
+	margin-top: 20px;
+}
+.upcenter span{
+	font-size: 20px;
+}
+.rightbutton{
+	background-color: #235fa7;
+	color:white;
+	width:120px;
+	border:0;
+	border-radius: 5px;
+	height:30px;
+	font-size: 20px;
+} 
+#addalert{
+	font-size: 100px;
+	line-height: 200px;
+}
+.add{
+	margin-top: 20px;
+}
+.cover1{
+	position: fixed;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	background: black scroll 0% 0% none repeat;
+    top:0px;
+    left: 0px;
+    display: none;
+}
+
+.alert{
+	width: 600px;
+	height: 380px;
+	top:50%;
+	left:50%;
+	margin-top: -170px;
+	margin-left: -300px;
+	z-index: 20000;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px 1px #696161;
+border-radius: 5px;     
+	position: fixed;
+	display: none ;
+	background: white;
+	animation: modal 0.7s;
+-moz-animation: modal 0.7s;
+-webkit-animation: modal 0.7s;	
+-o-animation: modal 0.7s;
+
+}
+.alert1{
+	width: 520px;
+	height: 200px;
+	top:50%;
+	left:50%;
+	margin-top: -170px;
+	margin-left: -300px;
+	z-index: 20000;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px 1px #696161;
+border-radius: 5px;     
+	position: fixed;
+	display: none ;
+	background: white;
+	animation: modal 0.7s;
+-moz-animation: modal 0.7s;
+-webkit-animation: modal 0.7s;	
+-o-animation: modal 0.7s;
+
+}
+.alert_button{
+	width: 80px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 0;
+	background: #235fa7;
+	color: white;
+	margin-top: 10px;
+	position: absolute;
+left: 260px;
+}
+.cover{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 10001;
+	opacity: 0.5;
+	background: #000 no-repeat;
+	display: none;
+}
+.alert_content{
+	width: 560px;
+	margin: auto;height: 100%;
+}
+.alert_content1{
+	width: 480px;
+	margin: auto;height: 100%;
+}
+.alert_cotent_span{
+	line-height: 45px;
+	font-size: 20px;
+}
+.alert input{
+	width: 150px;
+	height: 25px;
+	border-radius: 2px;
+	border: 1px solid black;
+	
+	font-size: 15px;
+}
+textarea{
+	width: 150px;
+	height: 50px;
+	border-radius: 2px;
+	border: 1px solid black;
+	resize:none;
+	float: left;
+	margin-top: 10px;
+	
+}
+.add_bank{
+	width:120px;
+	border: 1px solid #cccccc;
+	padding:5px 10px;
+	margin:5px 0px;
+	cursor:pointer;
+	}
+.all_bank p{
+	border:1px solid green;
+	width:80%;
+	}
+	.all_bank span{
+	margin:0px 20px;
+	}
+.alert_address select{
+width: 100px;
+	height: 25px;
+	border-radius: 2px;
+	border: 1px solid black;
+	font-size: 15px;
+}
+.alert_head{
+	background: #235fa7;
+	height: 50px;
+	font-size: 25px;
+	line-height: 50px;
+	color: white;
+	padding-left:10px;
+}
+#moreaddress{
+	width: 250px;
+}
+.button_div{text-align: center;
+margin-top: 10px;}
+.delete{
+	width: 30px;
+	height: 30px;
+	background: url("../../img/icon_pay.gif") no-repeat -330px -19px;
+	display: none;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+@keyframes modal
+{
+from {top:0;}
+to {top:50%;margin-top:-170px;}
+}
+
+@-moz-keyframes modal /* Firefox */
+{
+from {top:0;}
+to {top:50%;margin-top:-150px;}
+}
+
+@-webkit-keyframes modal /* Safari 鍜�Chrome */
+{
+from {top:0;}
+to {top:50%;margin-top:-150px;}
+}
+
+@-o-keyframes modal /* Opera */
+{
+from {top:0;}
+to {top:50%;margin-top:-150px;}
+}
+#mylink{
+	width: 100%;
+	position: relative;
+}
+.tip{
+color: red;
+display: none;
+margin-left: 10px;
+
+}
+.alert2{
+	width: 520px;
+	height: 220px;
+	top:50%;
+	left:50%;
+	margin-top: -170px;
+	margin-left: -300px;
+	z-index: 20000;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px 1px #696161;
+	border-radius: 5px;     
+	position: fixed;
+	background: white;
+	animation: modal 0.7s;
+	-moz-animation: modal 0.7s;
+	-webkit-animation: modal 0.7s;	
+	-o-animation: modal 0.7s;
+            display: none ;
+}

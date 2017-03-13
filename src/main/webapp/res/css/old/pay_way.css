@@ -1,0 +1,241 @@
+body{
+	padding:0;
+	margin:0;
+	height:100%;
+	background: #f5f5f5;
+}
+.allcontent
+{
+	width:1280px;
+	margin:auto;
+	    overflow: hidden;
+}
+.top1 .logo
+{
+	color:#fe5600;
+}
+.content
+{
+	width:100%;
+}
+.head
+{
+    height: 100px;
+    background-color: #ff5500;
+    text-align: center;
+    color:white;
+    line-height: 100px;
+    margin-bottom:20px;
+}
+.head span
+{
+	font-size:40px;
+}
+.content .left
+{
+	float:left;
+	width:135px;
+}
+.content .left ul
+{
+	background-color: white;
+	width:83%;
+			-webkit-padding-start:0;
+	-webkit-margin-before: 0;
+	    -webkit-margin-after: 0;
+	    padding:10px;
+	    margin:0;
+	    text-align:left;
+	    line-height:40px;
+}
+.content .left ul li
+{
+	border-bottom: 1px solid #f0f0f0;
+	width:90%;
+	list-style-type:none;
+	height:40px;
+	font-size:20px;
+}
+.content .left ul li:last-child
+{
+	border-bottom:0;
+}
+.content .right
+{
+	float:right;
+	width:1128px;
+}
+.content .right .small li
+{
+display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height:50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom:1px solid #e1e1e1;
+    padding:0;
+    padding-bottom:5px;
+}
+.content .right .small li:hover
+{
+    border-bottom:1px solid #ff5500;
+}
+
+.content .right ul
+{
+	width:100%;
+	-webkit-padding-start:0;
+	-webkit-margin-before: 0;
+	    -webkit-margin-after: 0;
+	    padding:0;
+	    margin:0;
+	    font-size:20px;
+
+}
+.content .right .small{
+	margin-bottom: 30px;
+}
+.content .right ul span
+{
+	margin-left: -10px;
+    margin-right: -10px;
+    color:#e6e6e6;
+}
+.small_ul{
+	width: 100%;
+	background-color: white;
+}
+.mid{
+	width: 100%;
+	background: white;
+	margin-bottom: 150px;
+	border: 1px solid #e6e6e6; 
+
+}
+.mid_content{
+	width: 100%;
+	overflow: hidden;
+}
+.mid_left{
+	width: 300px;
+	height: 180px;
+	margin: 30px 0px 30px 40px;
+	background: #fafafa;
+	background: url("../../img/icon_pay.gif") no-repeat -06px -195px;
+	float: left;
+}
+.mid_add{
+	width: 300px;
+	height: 180px;
+	margin: 30px 0px 30px 40px;
+	background: #fafafa;
+	background: url("../../img/icon_pay.gif") no-repeat -06px -6px;
+	float: left;
+}
+.mid_left:hover{
+	background: url("../../img/icon_pay.gif") no-repeat -06px -6px;
+}
+.pay_chose{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 25px;
+	border-bottom: 1px solid #e6e6e6;
+	background: #f0f0f0;
+}
+.chose_number{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 13px;
+}
+.chose_user{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 13px;
+
+}
+.pay_user img{
+	    margin-top: 12px;
+    position: absolute;
+    margin-left: 60px;
+    border-right: 1px solid gray;
+}
+.pay_number img{
+
+		    margin-top: 11px;
+    position: absolute;
+    margin-left: 60px;
+    border-right: 1px solid gray;
+    padding: 2px;
+}
+.pay_chose span{
+	margin-left: 40px;
+}
+.pay_name{
+	width: 100%;
+	height:40px;
+	text-align: center; 
+}
+.pay_name span{
+	line-height: 30px;
+	font-size: 15px;
+	line-height: 50px;
+}
+.pay_number{
+	width: 100%;
+	height: 45px;
+}
+.pay_number input{
+	width: 180px;
+	height: 35px;
+	border: 1px solid black;
+	font-size: 16px;
+margin: 10px 30px 0px 60px;
+padding-left:35px;
+}
+.pay_user{
+	width: 100%;
+	height:45px;
+	margin-bottom: 10px;
+	background: 
+}
+.pay_user input{
+	width: 180px;
+	height: 35px;
+	border: 1px solid black;
+	font-size: 16px;
+margin: 10px 30px 10px 60px;
+padding-left: 35px;
+}
+.pay_button{
+	width: 100%;
+margin-bottom: 10px;
+text-align:center;
+}
+.pay_button button{
+width: 60px;
+height: 30px;
+border: 0px none;
+border-radius: 5px;
+background: #F50 none repeat scroll 0% 0%;
+color: #FFF;
+font-size: 15px;
+}
+.cover{
+	width:30px;height:40px;margin-top:-180px;opacity:0.5;
+	margin-left:260px;
+	
+}
+.cover img{
+	/* margin-left:260px; */
+	margin-top:20px;
+
+}
+.cover img:hover{
+	cursor:pointer;
+}

@@ -1,0 +1,42 @@
+.w450{width: 450px;}
+.h220{height: 220px;}
+.bg-white{background: white;}
+.p20{padding:0 20px;}
+.fs20{font-size: 20px;}
+.ib{display: inline-block;}
+.b{display: block;}
+.fr{float: right;}
+.pr{position: relative;}
+.pa{position: absolute;}
+.r0{right: 0px;}
+.tc{text-align: center;}
+.mt10{margin-top:10px;}
+.c-hand{cursor:pointer;}
+.payafter_alert{
+	z-index:10001;
+	display:none;
+top: calc(50% - 110px);
+left:calc(50% - 225px) ;
+position: fixed;}
+.w50{width: 50px;}
+.h20{height: 20px;}
+.mt30{margin-top: 30px;}
+.lh20{line-height: 20px;}
+.w100{width: 100px;}
+.h35{height: 35px;}
+.lh35{line-height: 35px;}
+.c-white{color: white;}
+.bg-blue{background: #2BB8AA;}
+.mr20{margin-right: 20px;}
+.tl{text-align: left;}
+.mt20{margin-top: 20px;}
+.c-gray{color: #8B8C8C;}
+.c-dark{color: #636565;}
+.bo{border: 1px solid black;}
+.icon{height: 56px;
+    width: 56px;
+    float: left;
+    background: url(../../img/warn.gif) no-repeat;
+    margin: 12px 15px;
+}
+.ml86{margin-left: 86px;}

@@ -1,0 +1,107 @@
+/*宽度为1098设置为居中对齐模式*/
+.addcard_container{
+	width:1098px;
+	margin: 0 auto;
+	
+}
+.addcard_top{
+	overflow: hidden;
+	margin-top: 40px;
+	
+	padding:20px 0 ;
+	
+}
+.addcard_top_left{
+	float: left;
+	
+}
+.addcard_top_right{
+	float:right;
+}
+.addcard_top_right span{
+	display: block;
+	width:234px;
+	height:44px;
+	background: url(/res/img/addcard/1.png) no-repeat right center;
+}
+.addcard_middle{
+	border: 1px solid #e0e0e0;
+	
+	padding: 30px;
+	
+	
+}
+.addcard_middle_top{
+	overflow: hidden;
+	font-size:16px;
+	color: #808080;
+}
+.addcard_middle_top span{
+	float:left;
+}
+.addcard_middle_top a{
+	float: right;
+	font-weight: bold;
+}
+.addcard_middle_main{
+	width:600px;
+	margin:20px auto;
+	color:#808080;
+	font-size: 18px;
+	margin-left: 300px;
+	
+}
+.addcard_middle_main select{
+	width:230px;
+	height:30px;
+	margin-left: -7px;
+	font-size:16px;
+}
+.addcard_middle_main span{
+	color: limegreen;
+	margin-right: 10px;
+}
+.addcard_middle_main div{
+	margin-top:30px;
+}
+/*隐藏的验证失败时的信息*/
+span.show_msg{
+	color:#e4393c;
+	padding-left: 10px;
+}
+/*隐藏的验证失败时的信息*/
+.addcard_middle_main input{
+	width:230px;
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	margin-left:20px;
+}
+.addcard_middle_main div.addcard_middle_main_last input{
+	width: 100px;
+}
+.addcard_middle_main div.addcard_middle_main_last a{
+	background:#76c283;
+	padding: 5px;
+	color: #FFFFFF;
+}
+.addcard_middle_main button{
+	width:100px;
+	height:36px;
+	background:#ffa700;
+	border:none;
+	margin: 30px 150px 0 150px;
+	color: #fff;
+	font-size:20px;
+	cursor: pointer;
+}
+.set_payPSD{
+	
+	display: none;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.set_payPSD>div.addcard_middle_main_last>input{
+	width:120px;
+	margin-left:28px;
+}

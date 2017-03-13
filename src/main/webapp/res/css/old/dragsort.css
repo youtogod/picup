@@ -1,0 +1,65 @@
+	.alert ul { 
+		margin:0px; 
+		padding:0px; 
+		margin-left:20px; }
+	.list_xiaowei {
+	 width:100%; 
+	 list-style-type:none;
+	 line-height: 90px;
+	 margin-top:20px;
+	 overflow:hidden;
+	  }
+	.list_xiaowei li {
+	 float:left; 	 
+	 width:105px;
+	 height:105px;
+	 }
+	.list_xiaowei div {
+	 width:95px; 
+	 height:95px; 
+	 border:solid 2px #c4c4c4;
+	 padding-top:0px; 
+	 text-align: center;
+	 line-height: 80px;
+	position:relative;
+	}
+	.list_xiaowei div img
+	{
+	display:block;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	max-height:100%;
+	max-width:100%;
+	}
+	.placeHolder div {
+	 background-color:white !important;
+	  border:dashed 1px gray !important; 
+	  position: relative;
+	}
+	.number_sort{
+		list-style-type: none;
+		z-index: 1000;
+		position: absolute;
+		top:3px;
+
+	}
+
+	.number_sort li{
+		display: inline-block;	
+		border-radius: 50%;
+		background-color: #848484;
+		color: white;
+		margin-left:80px;
+		font-size:8px;
+		width: 18px;
+		text-align: center;
+		height: 18px;
+		line-height: 17px;
+	}
+	.number_sort li:first-child{
+		margin-left: 76px;
+	}

@@ -1,0 +1,27 @@
+.product_dealdown_suc{
+	width: 1098px;
+	margin: 0 auto;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	margin-left: 8px;
+	
+}
+
+.product_dealdown_btn{
+	width: 1098px;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+	border-top: 1px solid #e0e0e0;
+	
+}
+.product_dealdown_btn a{
+	font-size: 30px;
+	background:#ffa600 ;
+	padding: 10px 15px;
+	color: #FFFFFF;
+	margin-right: 40px;
+}

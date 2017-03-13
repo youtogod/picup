@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+
+header{
+height:70px;
+border-top:1px solid #85ac4c;
+line-height:70px;
+background-color:white;
+margin:auto;
+margin-top:50px;
+}
+.container,header{
+width:1000px;
+
+background-color:white;
+}
+.container{
+padding:20px 0px;
+margin:10px auto;
+z-index:3;
+}
+.add_card_content input{
+width:50%;
+height:100%;
+margin-left:10px;
+
+}
+.card_kind{
+margin-left:35px;
+color:#85ac4c;
+border:1px solid #75c382;
+display:none;
+}
+.add_card_content p{
+height:40px;
+line-height:40px;
+margin:40px 0px;
+}
+.add_card_content{
+width:600px;
+margin:auto;
+
+}
+.add_card_content input:focus{
+border:1px solid #29a94d;
+
+}
+.add_card_content span{
+color:#29a94d;
+margin-right:10px;
+
+}
+.add_card_content button{
+margin-left:27px;
+background-color:#75c382;
+	border:1px solid #c7e296;
+}
+
+.button{
+cursor:pointer;
+border:none;
+height:38px;
+color:white;
+}
+.blind{
+	width:100px;
+	display:block;
+	margin:20px auto;
+background-color:#ffa770;
+}
+
+#add_pwd{
+	width:400px;
+	height:300px;
+	margin-top:-150px;
+	margin-left:-200px;
+	}
+
+.alert_confirm .up{
+	text-align:center;
+	padding:0px;
+	
+	}
+
+.pay_pwd{
+	height:40px;
+	width:90%;
+	margin:20px auto;
+	}
+
+
+.pay_remind{
+color:red;
+height:20px;
+line-height:20px;
+}
+.card_layer{
+width:100%;
+height:100%;
+z-index:10;
+top:0px;
+left:0px;
+background-color:black;
+display:none;
+position:fixed;
+}
+
+
+
+
+
+
+
+
+
+

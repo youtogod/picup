@@ -1,0 +1,73 @@
+/*申请框*/
+#apply_refund_model{
+	background:#282828 ;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}
+.apply_refund_area{
+	background:#FFFFFF;
+	width: 600px;
+	height: 370px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top:-210px ;
+	margin-left: -300px;
+	
+}
+
+.apply_refund_area_top{
+	background: #ff5400;
+	padding: 20px 30px;
+}
+.apply_refund_area_top div{
+	display: inline-block;
+	
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+.apply_refund_area_top img{
+	float: right;	
+}
+.apply_refund_area_middle{
+	padding: 30px;
+	font-size: 16px;
+	font-weight: 9999;
+}
+.apply_refund_area textarea{
+	border: 1px solid #ffa700;
+	margin:0 30px;
+}
+.apply_refund_area_bottom{
+	margin-top:30px ;
+	padding-left:30px ;
+	padding-right: 30px;
+	overflow: hidden;
+}
+.apply_refund_area_bottom a{
+	padding: 10px 30px;
+	font-size: 20px;
+	border: 1px solid #ffa700;
+	float: right;
+	margin-left: 24px;
+	color: #ff5400;
+}
+.apply_refund_area_bottom a.active{
+	background: #ffa700;
+	color: #fff;
+}
+
+/*生产者区域中，生产者查看消费者退款理由的文本框*/
+.producter_apply_refund_txt{
+	font-size:18px;
+	padding-left: 66px;
+	width:500px;
+	height: 100px;
+	color: #808080;	
+		
+}

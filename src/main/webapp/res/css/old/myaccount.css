@@ -1,0 +1,431 @@
+body{
+	
+}
+.head li{
+    display: inline;
+    margin-right: 20px;
+
+}
+span{
+	cursor:default;
+}
+#top{
+	color:#317ef3;
+}
+.user{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.noevalute_eva{
+	 position: absolute;
+    left:50%;
+    cursor:pointer;
+    bottom:1px;
+    width:40%;
+    height:50%;
+    overflow:auto;
+    display:none;
+    
+    border:1px solid grey;
+}
+#btn-myproduct{
+	background-color:red;
+	border:red;
+	font-size:20px;
+}
+
+.empty_btn{
+	right:150px;
+	top:550px;
+	position:absolute;
+}
+.noevalute{
+	cursor:pointer;
+	
+}
+a{
+	cursor:pointer;
+}
+#page{
+    width: 40px;
+    height:32px;
+    text-align:center;
+   
+}
+.modal-body .modal_message{
+	width:100%;
+	height:80%;
+}
+.modal-body .modal_top{
+	height:300px;
+	 overflow :auto;
+    word-wrap:break-word;
+}
+.table{
+	cursor:default;
+}
+.bottom{
+	height:150px;
+}
+.confirm_fh{
+float: right;
+margin-right:4.55%;}
+#login_username,#login_password{
+	
+	width:100%;
+}
+
+.form-control{
+	display:inline;
+	width:65%;
+}
+.page{
+    width: 350px;
+    margin: auto;
+    padding:3px;
+    height:30px;
+     margin-bottom:20px;
+     position:absolute;
+    bottom:-50px;
+    left:34%;
+   
+}
+.head ul{
+   right: 10px;
+    position: absolute;
+}
+.head{
+    background-color: #317ef3;
+    height: 40px;
+    position: relative;
+}
+.identify{
+    font-size: 40px;
+    text-align: center;
+    height: 30px;
+    line-height:100px;
+
+}
+.popover.bottom{
+	height:auto;
+}
+.head a{
+    color: white;
+}
+.content{
+    
+    position: relative;
+    margin-top: 0px;
+}
+.content .left{
+    position:absolute ;
+    left: 0px;
+    width: 85%;
+
+}
+.content .right{
+    position:absolute ;
+    right: 0px;
+    width: 15%;
+
+}
+.content .left p{
+    width:70%;
+    margin: auto;
+}
+.content .left p .btn{
+    margin-right:15%;
+
+}
+.table{
+    margin: 40px auto;
+    width: 98%;
+    border:1px solid #D5D5D5;
+
+}
+.agree{
+	position:absolute;
+	left:65%;
+	top:50px;
+	
+}
+.goods{
+    width: 120px;
+    height: 120px;
+
+}
+
+.king_goods{
+    position: relative;
+}
+.king_goods span{
+    float: left;
+    margin-right: 1%;
+    text-align: center;
+}
+.element{
+    width: 70px;
+    height: 70px;
+    margin-top:30px;
+    
+}
+.count{
+    position: absolute;
+    right: 0px;
+}
+tfoot .btn{
+    margin-right: 5%;
+}
+.Logistics{
+    float: right;
+    width: 55%;
+}
+tfoot .form-control{
+    width: 50%;
+    display: inline;
+}
+.ordernumber{
+    float: right;
+    padding-top: 10px;
+}
+.noevalute{
+    position: absolute;
+    left:35%;
+    
+}
+.noe{
+	position: absolute;
+    left:65%;
+    cursor:pointer;
+}
+tfoot textarea{
+    width: 70%;
+    height: 100px;
+    resize: none;
+}
+.evalute .btn{
+    float: right;
+    margin-top: 40px;
+
+}
+.right li{
+    margin: 15px;
+    list-style: none;
+    background-color:#298BA3;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px;
+    padding-left: 15%;
+
+}
+.right ul{
+    width: 100%;
+    float:right;
+
+
+}
+.right li:hover{
+    background-color: #5DAFC4;
+}
+.all_content{
+    width: 1280px;
+    margin: 0px auto;
+  
+ height:2400px;
+   
+}
+.consignee span{
+	margin-right:5%;
+}
+textarea{
+    resize: none;
+}
+.mymessage{
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    margin-top: 50px;
+}
+.beforechat{
+	font-size:20px;
+	position:fixed;
+    right: 5px;
+    border: 1px solid #298BA3;
+ background-color:white;
+ bottom:0px;
+ width: 300px;
+    height: 50px;
+    line-height:50px;
+    cursor:pointer;
+}
+.chat{
+    width: 540px;
+    height: 430px;
+      position:fixed;
+    right: 5px;
+    border: 1px solid #EEEEEE;
+ background-color:white;
+ bottom:0px;
+ display:none;
+
+}
+.chat .fjr{
+    width: 150px;
+    height: 100%;
+    padding-top:5px;
+   
+}
+.fjr p{
+	padding-left:3px;
+	cursor:pointer;
+	width:90%;
+}
+.friend_message span{
+	color:green;
+}
+.fjr p:hover{
+	background-color:#eeeeee;
+	
+}
+.chat img{
+	width:30px;
+	height:30px;
+	border-radius:2px;
+}
+.chat .mes{
+    width: 390px;
+    height: 100%;
+    position: absolute;
+    right: 5px;
+    top:0px;
+    border-left: 1px solid #EEEEEE;
+}
+.update{
+	width:80px;
+	height:40px;
+	background-color:#298BA3;
+	float:right;
+	line-height:40px;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+}
+#logging_page{
+	display:none;
+}
+.my_message span{
+	color:#55A7DD;
+}
+.chat ul{
+    width: 100%;
+    list-style: none;
+    
+    margin-left:0px;
+}
+.mes textarea{
+
+    bottom: 0px;
+    width: 100%;
+    height:80px;
+
+}
+li{
+	cursor:pointer;
+}
+.onlinechat{
+    width: 100%;
+    height: 250px;
+    padding:0px 3px;
+    overflow :auto;
+    word-wrap:break-word;
+}
+.mes p{
+    height: 30px;
+    border-bottom:1px solid #EEEEEE;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.logging{
+	padding-right:20px;
+	text-align:right;
+	background-color:#eeeeee;
+	cursor:pointer;
+}
+.friend_message .my_message{
+	white-space:normal;
+}
+.right a:hover{
+	 text-decoration:none ;
+	 
+}
+#backToTop{
+	right:20px;
+	 background-color: #eeeeee;
+	 position:fixed;
+	 bottom:15px;
+	 text-align:right;
+	 cursor:pointer;
+}
+.head{
+    text-align: center;
+    color: white;
+    height: 100px;
+     background-color: #317ef3;
+     font-size:30px;
+     line-height:100px;
+}
+.head p{
+    color: white;
+    height: 40%;
+}
+.head .title{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.border{
+	border-bottom:1px solid #D5D5D5;
+	height:50px;
+}
+
+#btn-myproduct{
+	margin-left:5%;
+	margin-top:5px;
+}
+.order_border{
+	height:100%;
+	background-color:black;
+	color:white;
+	float:right;
+	width:11.85%;
+	line-height:50px;
+	font-size:20px;
+	padding-left:1.5%;
+	cursor:pointer;
+}
+.order_border:hover{
+	height:100%;
+	background-color:#4D4D4D;
+	color:white;
+	float:right;
+	width:11.85%;
+	line-height:50px;
+	font-size:20px;
+	padding-left:1.5%;
+}
+.modal-content{
+	margin-top:300px;
+}
+.late_agree,.late_refuse{
+	float:right;
+}
+.myimgage img{
+	width:100px;
+	height:100px;
+	border:1px solid #eeeeee;
+}
+.content table img{
+	border:1px solid #eeeeee;
+}

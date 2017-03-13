@@ -1,0 +1,189 @@
+#confirm{
+	width: 1098px;
+	margin: 0 auto;
+	
+	
+}
+/*大标头*/
+.confirm_agree{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 25px 0;
+	border-bottom: 1px solid #dfdfdf;
+}
+/*商品信息*/
+
+.product_msg_container{
+	border: 1px solid #e0e0e0;
+}
+/*第一行*/
+.product_msg_tit{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 30px 15px 35px;
+}
+
+.product_msg_firstrow{
+	background: #f0f0f0;
+	height:60px;
+	line-height: 60px;
+	
+	
+	border-top: 2px solid #fe5804;
+	
+}
+.product_msg_firstrow span{
+	padding-left: 35px;
+	color:#343434;
+	font-size: 18px;
+	font-weight: bold;
+	width: 150px;
+	display:inline-block;
+}
+.product_msg_firstrow span:nth-child(1){
+	width: 600px;
+	text-align: center;
+}
+/*第二行*/
+.product_msg_secondrow{
+	padding:10px 35px;
+}
+.product_msg_secondrow div{
+	font-size:18px;
+	font-weight: bold;	
+}
+/*第三行*/
+.product_msg_thirdrow{
+	height: 150px;
+	border-top:1px solid #e0e0e0 ;
+	border-bottom: 1px solid #e0e0e0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.product_msg_thirdrow_img{
+	width: 600px;
+	overflow: hidden;
+	vertical-align: middle;
+	float: left;
+	
+	
+}
+.product_msg_thirdrow_img img{
+	width: 30%;
+	padding: 10px 0 10px 35px;
+	vertical-align: middle;
+	float: left;
+
+}
+.product_msg_thirdrow_img span{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 500;
+	float: left;
+	width: 200px;
+	vertical-align: middle;
+	margin-top: 15px;
+	margin-left: 20px;
+	
+}
+.product_msg_thirdrow_price{
+	
+	float: left;
+	margin-top: 46px;
+	margin-left:40px;
+	
+}
+.product_msg_thirdrow_count{
+	
+	float: left;
+	margin-top: 46px;
+	margin-left:122px;
+}
+.product_msg_thirdrow_money{
+	
+	float: left;
+	margin-top: 46px;
+	margin-left:125px;
+}
+/*第4行*/
+.product_msg_fourrow{
+	overflow: hidden;
+	margin-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.product_msg_fourrow div{
+	float: left;
+	margin-right: 50px;
+	
+}
+.product_msg_fourrow div:nth-child(3),.product_msg_fourrow div:nth-child(4){
+	float: right;
+	font-weight:bold;
+	font-size:18px;
+}
+.product_msg_fourrow div:nth-child(3) span,.product_msg_fourrow div:nth-child(4) span{
+	color:#ff5458;
+	
+}
+/*收货信息*/
+.product_confirm div{
+	padding-left: 35px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.product_confirm .product_confirm_msg{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	font-size: 22px;
+}
+/*付款*/
+.product_confirm_pay{
+	border:1px solid #f38e08;
+	position: relative;
+	height: 400px;
+}
+.product_confirm_pay_txt{
+	color: #ff5c65;
+	position: absolute;
+	top: 60px;
+	left: 170px;
+	font-size: 18px;
+
+}
+.product_confirm_pay_check{
+	position: absolute;
+	top: 140px;
+	left: 276px;
+}
+.product_confirm_pay_check p{
+	padding-bottom: 20px;
+}
+.product_confirm_pay_password{
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	
+	
+}
+.product_confirm_pay_password input{
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+.product_prompt{
+	font-size: 10px;
+	margin-left: 100px;
+}
+.product_sure{
+	position: absolute;
+	top: 262px;
+	left:374px;
+	background: #ffa60a;
+	padding: 5px 10px;
+	color: #fff;
+}

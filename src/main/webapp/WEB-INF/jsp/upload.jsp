@@ -6,11 +6,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>上传图片</title>
+<script type="text/javascript" src="/res/js/scripts/jquery-1.11.0.min.js"></script>
 </head>
 <body>
 	<h3>本页可上传图片</h3>
-	<img src="/image/load/1" id="image"
-		style="margin-bottom: -3px; width: 80px; height: 40px;" />
+	<form action="/image" method="post" enctype="multipart/form-data">
+  		选择：<input type="file" name="file">
+  			<input type="submit" value="提交">
+  	</form>
+	
 </body>
-
+	
 </html>

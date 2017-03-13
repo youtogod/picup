@@ -1,0 +1,26 @@
+#top .logo {
+    background: url(../img/index/logo.png);
+	width:111px;
+	height:49px;
+}
+body{
+	background-color:#f9f8f4;
+}
+.content{
+	width:1280px; margin:15px auto;
+}
+.content1{
+	width:1280px; margin:10px auto;
+}
+.boxa{
+	background-color:#f0f2f1;width:100%;margin-top:20px;
+}
+.boxb{
+	background-color:#f0f2f1;width:100%;margin-top:-5px;
+}
+.sbox{
+	width:1280px; margin:5px auto;
+}
+.sboximg{
+	margin-top:20px;margin-bottom:10px;
+}

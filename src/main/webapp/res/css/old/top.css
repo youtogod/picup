@@ -1,0 +1,203 @@
+body
+{
+	font-family:Microsoft JhengHei;
+}
+.top1
+{
+	width:100%;
+	height:50px;
+	background-color:white;  
+
+}
+.producter_li{
+	border:1px solid #235fa7;
+	padding:3px 5px;
+}
+.top1 a{
+	text-decoration: none;
+	color:#337ab7;
+}
+.top1span{
+	cursor:pointer;
+}
+.top1 .logo
+{
+	float:left;
+	width:100px;
+	height:45px;
+	float:left;
+	cursor:pointer;
+	margin-top:2px;
+	margin-left:3px;
+}
+.top1 .top1_right{
+	float:right;
+
+	
+}
+.top1 .top1_right{
+	margin-right:10px;
+	
+}
+.top1 ul {
+	padding:0; 
+	margin:0;
+	list-style-type: none;
+	float:right;
+	margin-right:20px;
+}
+/* float the list so that the items are in a line and their position relative so that the drop down list will appear in the right place underneath each list item */
+.top1 ul li {
+float:left; 
+position:relative;
+border-right:2px solid #eee;
+}
+.top1 ul li:hover{
+cursor:pointer;
+	}
+/* style the links to be 104px wide by 30px high with a top and right border 1px solid white. Set the background color and the font size. */
+.top1 ul li a{
+	display:block; 
+	text-align:center; 
+	text-decoration:none; 
+	width:90px; 
+	height:50px; 
+	line-height:50px; 
+	font-size:18px;
+}
+.top1 ul li a img
+{
+width: 50px;
+height: 40px;
+border-radius: 50%;
+}
+.top1 .last_child
+{
+	width:130px;
+	border-right:0;
+}
+.top1 .last_child a
+{
+	width:130px;
+}
+.top1 .last_child:hover ul
+{
+	width:130px;
+}
+
+.top1 ul li .entry p{
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.top1 ul li .entry p a
+{
+	display:block; 
+	text-align:center; 
+	text-decoration:none; 
+	width:90px; 
+	height:42px; 
+	line-height:42px; 
+	font-size:15px;
+
+}
+.top1 ul li .last p a
+{
+	display:block; 
+	text-align:center; 
+	text-decoration:none; 
+	width:125px; 
+	height:42px; 
+	line-height:42px; 
+	font-size:15px;
+
+}
+.top1 ul li .entry p
+{
+	border-bottom:1px solid #ccc;
+}
+
+.top1 ul li .entry{
+	display: none;
+	z-index:3;
+	margin-top:19px;
+	word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    background-color: #F9F7F7;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+	-webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    line-break: auto;
+    padding-top: 5px;  
+    padding-bottom:5px; 
+}
+
+.top1 ul li:hover a {
+	color:black;
+}
+
+.top1 ul li:hover .entry {
+	display:block; 
+	position:absolute; 
+	top:31px; 
+	left:0; 
+	width:102px;
+	padding-left:0;
+	-webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+padding-bottom: 5px;
+}
+.top1 ul li:hover .entry p a {
+	display:block; 
+	background:#F9F7F7;
+	color:#0D66B3;
+	font-weight:200;
+	width:100px;
+}
+.top1 ul li:hover .last p{
+	display:block; 
+	background:#F9F7F7;
+	color:#0D66B3;
+	font-weight:200;
+	width:125px;
+}
+.top1 ul li:hover .last p a {
+	display:block; 
+	background:#F9F7F7;
+	color:#0D66B3;
+	font-weight:200;
+	width:125px;
+}
+.top1 ul li:hover .entry p a:hover {
+	color:#000;
+}
+ .entry{
+       margin:0 auto;
+       margin-top:20px;
+       width:90px;            
+       background:#eee;
+       padding-left:10px;
+       -webkit-border-radius:5px;
+       -moz-border-radius:5px;
+       border-radius:5px;
+           padding-bottom: 5px;
+}
+    .entry-trangle{
+        position:absolute;
+           margin-left: 60px;
+           margin-top:-13px;
+        width:0;
+        height:0;
+        border-left:10px solid transparent;
+        border-right:10px solid transparent;
+        border-bottom:10px solid #F9F7F7;
+        z-index:-1;
+    }

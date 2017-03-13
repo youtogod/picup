@@ -1,0 +1,272 @@
+body{
+	background-color:#eeeeee;
+}
+.head li{
+    display: inline;
+    margin-right: 20px;
+
+}
+#top{
+	color:#85db47;
+}
+.user{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+span,h4,div{
+	cursor:default;
+}
+.head ul{
+    right: 10px;
+    position: absolute;
+}
+
+#now_state{
+	font-size:15px;
+	color:grey;
+}
+.head a{
+    color: white;
+}
+.all_content{
+    width: 1280px;
+    margin:0px auto;
+    background-color:white;
+    padding:10px;
+    height:1900px;
+}
+.username{
+    width: 100%;
+    height: 140px;
+
+}
+.username .left{
+    width:140px;
+    float: left;
+    height: 100%;
+}
+.username .left img{
+    width: 100%;
+    height: 100%;
+margin-left: 47%;
+}
+.username .right{
+    width: 79%;
+    float: right;
+}
+.username ul{
+    margin-left: 0px;
+    background-color: #e3e3e3;   
+    padding-left: 0px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+width: 93.8%;
+
+}
+.username ul li{
+    display: inline;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 170px;
+}
+.username ul a{
+	color:black;
+}
+.username ul a:hover{
+	color:black;
+}
+
+.grade{
+    color: #a94442;
+    font-weight: bolder;
+}
+.center{
+    width: 90%;
+    margin: auto;
+    height: 1000px;
+}
+.account{
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    position: relative;
+   
+}
+.account  .left{
+   position: absolute;
+    width: 50%;
+
+
+}
+.account  .right,.account .right2{
+    position: absolute;
+    width: 50%;
+    right: 0px;
+}
+.left2,.right2{
+    top: 55px;
+}
+.left2{
+    position: absolute;
+}
+.iden .king{
+    margin-left:14%;
+    margin-right: 10%;
+}
+.iden{
+    background-color: #EEEEEE;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.all_content h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.BaseMessage,.BaseMessage_rel{
+    margin-top: 40px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
+.BaseMessage span,.BaseMessage_rel span{
+    margin: 0px 3.5%;
+}
+.BaseMessage p,.BaseMessage_rel p{
+    width: 70%;
+    margin: 30px auto;
+
+}
+.card_img{
+	width:30%;
+}
+.name{
+    width: 120px;
+    height: 33px;
+}
+.card{
+	position:relative;
+	float:left;
+	width:30%;
+	border:1px solid #eeeeee;
+	margin-left:2.5%;
+	height:100%;
+	text-align:center;
+}
+.card img{
+		display:block;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	max-width:100%;
+	max-height:100%;
+    width:auto;
+}
+.add_card span{
+	margin:0px;
+	margin-left:2.5%;
+	display:block;
+	float:left;
+	width:30%;
+	text-align:center;
+}
+
+.BaseMessage .sel,.BaseMessage_rel .sel{
+    width: 150px;
+    height: 33px;
+}
+.time{
+    width: 60px;
+}
+.add_card{
+	height:30px;
+	
+}
+.BaseMessage select{
+    width: 120px;
+}
+select{
+    height: 33px;
+}
+.BaseMessage img{
+    width: 100px;
+    height: 100px;
+     margin: 5px 5%;
+}
+.glyphicon-plus{
+    height: 70px;
+    line-height: 70px;
+   color:#298BA3;
+}
+
+.btn-info{
+    background-color: #298BA3;
+}
+.btn-info:hover{
+    background-color: #1b6d85;
+}
+.safety{
+    margin: 40px 0px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
+.safety span{
+    margin: 10px 60px;
+}
+.safety p{
+    margin-top: 20px;
+}
+.head{
+    text-align: center;
+    color: white;
+    height: 100px;
+    background-color:#235FA7;
+}
+.head p{
+    color: white;
+    height: 40%;
+}
+.head .title{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.file1 {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    width:112px;
+}
+.file1 input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file1:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+#a,#b,#c{
+	width:33%;
+	float:left;
+	text-align:center;
+	padding-left:10px;
+	
+}

@@ -1,0 +1,182 @@
+@CHARSET "UTF-8";
+.alert_chat{
+	width:640px;
+	height:600px;
+	border:2px solid #696161;
+	z-index:99999;
+	position: fixed;
+	top:50%;
+	display:none;
+	left:50%;
+	margin-left:-320px;
+	margin-top:-300px;
+	background-color:white;
+	border-radius: 10px;
+}
+
+.alert_chat .alert_head{
+	width:100%;
+	height:90px;
+	border-bottom: 1px solid #eee;
+	padding-left:20px;
+	line-height: 90px;
+}
+.alert_chat1 .alert_head{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	border-bottom: 1px solid #eee;
+	padding-left:20px;
+
+}
+.alert_chat .alert_head .alert_close{
+	position: absolute;
+	top: -25px;
+	right: 0px;
+}
+.alert_chat .alert_head .alert_close:hover{
+	cursor: pointer;
+}
+.alert_chat .alert_head .alert_close img{
+	width:20px;
+	height:20px;
+}
+
+.alert_chat .alert_head img{
+	width:60px;
+	height:60px;
+	border-radius: 50%;
+	border-bottom: 1px solid #eee;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+.alert_chat .alert_body{
+	width:100%;
+	height:510px;
+
+}
+
+.alert_chat .alert_body .alert_body_left{
+	width:160px;
+	height:505px;
+	border-right: 1px solid #eee;
+
+}
+
+.alert_chat .alert_body .alert_body_right{
+	position: absolute;
+	left:160px;
+	width:480px;
+	height:505px;
+	top:100px;
+	padding-left:10px;
+}
+
+.alert_chat .alert_body .alert_body_left .chat_friends{
+	list-style-type: none;
+	height:100%;
+}
+.alert_chat .alert_body .alert_body_left .chat_friends li{
+	width:100%;
+	border-bottom: 1px solid #eee;
+	height:55px;
+
+	line-height: 55px;
+	vertical-align: middle;
+} 
+
+.alert_chat .alert_body .alert_body_left .chat_friends li:hover{
+	cursor: pointer;
+	background-color: #eee;
+}
+
+.alert_chat .alert_body .alert_body_left .chat_friends li img{
+	width:40px;
+	height:40px;
+		
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right:10px;
+} 
+
+.alert_chat .alert_body .alert_body_left .chat_friends li span{
+	font-size:12px;
+}
+
+.alert_body_right .chat_content_history{
+	height: 330px;
+	width: 455px;
+	overflow-y:scroll; 
+	margin-bottom: 20px;
+}
+.alert_body_right .chat_content_history ul{
+	list-style-type: none;
+	display: inline;
+} 
+.alert_body_right .chat_content_history ul li img{
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+	margin-right:5px;
+} 
+.alert_body_right .chat_content_history ul span{
+	font-size:14px;
+	margin-right:5px;
+}
+.alert_body_right .chat_content_history ul .my_chat{
+	width:100%;
+	text-align:left;
+}
+
+.alert_body_right .chat_content_history ul .other_chat{
+	width:100%;
+	text-align: right;
+}
+
+.alert_chat .alert_body .alert_body_right .alert_body_chat{
+	position: absolute;
+	bottom: 20px;
+	width:455px;
+	height:150px;
+
+}
+.alert_body_chat span{
+	font-size:12px;
+}
+.chat_content{
+	resize:none;
+	width:455px;
+	height:120px;
+	border: 1px solid #eee;
+
+}
+.alert_body_chat .send{
+
+	display: block;
+	cursor:pointer;
+    background-color: #235fa7;
+    color: white;
+    width: 50px;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 14px;
+    float: right;
+    text-align: center;
+
+}
+/*  寮瑰嚭妗嗙粨鏉�*/
+
+#cover
+{
+	position: fixed;
+	z-index:9999;
+	top:0px;
+	left:0px;
+	display:none;
+	width:100%;
+	height:100%;
+	opacity: 0.4;
+	background: #000 none repeat scroll 0% 0%;
+}

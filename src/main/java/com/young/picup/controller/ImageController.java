@@ -1,9 +1,11 @@
 package com.young.picup.controller;
 
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.List;
 
 import javax.annotation.Resource;
 import javax.imageio.ImageIO;
@@ -12,25 +14,41 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 
-import com.young.picup.dao.ImageDAO;
+import com.young.picup.service.ImageService;
+import com.young.picup.util.ResultInfo;
 
 @Controller
 @RequestMapping("image")
 public class ImageController {
 	@Resource
-	private ImageDAO imageDAO;
+	private ImageService imageService;
 
 	@RequestMapping("upload")
 	public String upload() {
 		return "upload";
 	}
-
-	@RequestMapping("load/{id}")
-	public void upload(@PathVariable Integer id, HttpServletRequest request,HttpServletResponse response) throws FileNotFoundException, IOException {
-		String path = imageDAO.getImagePathById(id);
+	
+	@RequestMapping("display")
+	public String display(Model model) {
+		List<Integer> ids = imageService.getImageIds();
+		//System.out.println(ids);
+		model.addAttribute("ids", ids);
+		return "display";
+	}
+	
+	
+	
+	@RequestMapping(value="{id}",method=RequestMethod.GET)
+	public void loadImage(@PathVariable Integer id, HttpServletRequest request,HttpServletResponse response) throws FileNotFoundException, IOException {
+		String path = imageService.getImagePathById(id);
 		String filePath = request.getSession().getServletContext().getRealPath("/") + "/images" + path;
 
 		// Set standard HTTP/1.1 no-cache headers.
@@ -52,5 +70,20 @@ public class ImageController {
 			out.close();
 		}
 	}
+	
+	@RequestMapping(value="",method=RequestMethod.POST/*,produces="text/html;charset=utf-8"*/)
+	@ResponseBody
+	public ResultInfo uploadImage(@RequestParam("file") MultipartFile file, HttpServletRequest request) {
+		String realPath = request.getSession().getServletContext().getRealPath("/");
+		ResultInfo resultInfo = imageService.saveImage(file, realPath);
+		return resultInfo;
+	}
+	
+	
+	/*@RequestMapping(value="test/{n}",produces="text/html;charset=utf-8")
+	@ResponseBody
+	public String testParam(@PathVariable BigDecimal n){
+		return ""+n;
+	}*/
 
 }

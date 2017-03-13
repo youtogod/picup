@@ -1,0 +1,171 @@
+body{
+    background-color:#eeeeee;
+}
+#top{
+	color:#85db47;
+}
+.user{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+.head ul{
+    right: 10px;
+    position: absolute;
+}
+.head{
+    background-color:#44BB5C;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.head a{
+    color: white;
+}
+.head li{
+    display: inline;
+    margin-right: 20px;
+
+}
+.all_content{
+    width: 1280px;
+    margin:0px auto;
+     background-color:white;
+    padding:10px;
+     height:1200px;
+}
+.username{
+    width: 100%;
+    height: 140px;
+
+}
+.username .left{
+    width:140px;
+    float: left;
+    height: 100%;
+}
+.username .left img{
+    width: 100%;
+    height: 100%;
+margin-left: 47%;
+}
+.username .right{
+    width: 79%;
+    float: right;
+}
+.username ul{
+    margin-left: 0px;
+    background-color: #e3e3e3;   
+    padding-left: 0px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+width: 93.8%;
+
+}
+.username ul li{
+    display: inline;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 170px;
+}
+.username ul a{
+	color:black;
+}
+.username ul a:hover{
+	color:black;
+}
+.grade{
+    color: #a94442;
+    font-weight: bolder;
+}
+.hardware,.software
+{
+    margin:20px auto;
+    width:100%;
+    border:1px solid #eee;
+    border-radius: 15px;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+}
+.hardware h2
+{
+	text-align:center;
+}
+.m_bg{ background:url(../../img/design/model.png) no-repeat center; width:322px; height:726px; position:relative;margin-left:150px;float:left;}
+.m_bg a{ display:block; position:absolute;}
+
+.m_bg .m_k1{ width:80px; height:110px; top:25px; left:118px;}
+.m_bg .m_k2{ width:57px; height:285px;  top:135px; left:37px;}
+.m_bg .m_k3{ width:57px; height:285px;  top:135px; left:230px;}
+.m_bg .m_k4{ width:136px; height:190px;  top:135px; left:94px;}
+.m_bg .m_k5{ width:136px; height:60px;  top:645px; left:94px;}
+.m_bg .m_k6{width:136px;height:320px;top:325px;left:94px;}
+.m_k1:hover{ background:transparent url(../../img/design/peoplehover.png) no-repeat scroll -118px -25.23805px;cursor:pointer;}
+.m_k2:hover{ background:transparent url(../../img/design/peoplehover.png) no-repeat scroll -37px -135.23805px;cursor:pointer;}
+.m_k3:hover{ background:transparent url(../../img/design/peoplehover.png) no-repeat scroll -230px -135.23805px;cursor:pointer;}
+.m_k4:hover{ background:transparent url(../../img/design/peoplehover.png) no-repeat scroll -94px -135.23805px;cursor:pointer;}
+.m_k5:hover{ background:transparent url(../../img/design/peoplehover.png) no-repeat scroll -94px -645.23805px;cursor:pointer;}
+.m_k6:hover{ background:transparent url(../../img/design/peoplehover.png) no-repeat scroll -94px -325.23805px;cursor:pointer;}
+.head{
+    text-align: center;
+    color: white;
+    height: 100px;
+    background-color:#44BB5C;
+}
+.head p{
+    color: white;
+    height: 40%;
+}
+.bodydata
+{
+	width:400px;
+	height:350px;
+	    margin-top: 120px;
+    margin-left: 100px;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=3);/*ie*/
+-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #909090;/*safari»òchrome*/
+box-shadow:2px 2px 10px #909090;/*opera»òie9*/
+border:1px solid black;
+	float:left;
+}
+.bodydata .input-group
+{
+	margin:auto;
+	margin-top:10px;
+}
+.bodydata h4
+{
+	margin-bottom:20px;
+}
+.bodydata .input-group .bodyname
+{
+	    margin-right: 20px;
+    text-align: right;
+    width: 80px;
+    float: left;
+}
+.bodydata table
+{
+	width:60%;
+	margin:auto;
+	text-align:center;
+}
+.bodydata .input-group button
+{
+color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 6px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.head .title{
+    padding-top: 10px;
+    font-size: 30px;
+}

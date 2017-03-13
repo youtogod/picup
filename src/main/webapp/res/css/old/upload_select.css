@@ -1,0 +1,334 @@
+body {
+    background-color: #eeeeee;
+    font-size: 15px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top1 .logo {
+    background: url(../../img/logo/bat.png) no-repeat 0px -135px;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    height: 100px;
+    background-color: #323232;
+    padding-left: 40%;
+}
+
+.head p {
+    color: white;
+    height: 60%;
+}
+
+span {
+    cursor: default;
+}
+
+.head .title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+.content {
+    width: 1152px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 10px;
+    cursor: default;
+    margin-bottom: 60px;
+
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.little {
+    float: left;
+    width: 561px;
+    height: 100%;
+    background-image: url('../../img/top/tiny.png');
+    cursor: pointer;
+    position: relative;
+}
+
+.big {
+    float: right;
+    width: 561px;
+    height: 100%;
+    background-image: url('../../img/top/big.png');
+    cursor: pointer;
+    position: relative;
+}
+
+.little:hover, .big:hover {
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+
+}
+
+.bodydata {
+    float: right;
+    margin-right: 10%;
+}
+
+.ok {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+.content h4 {
+
+    height: 65px;
+    line-height: 65px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.want_ok {
+    float: right;
+    margin-top: 7px;
+}
+
+.you_want_kind {
+    height: 130px;
+    float: left;
+    width: 65%;
+    margin-left: 10px;
+}
+
+.DNAsize {
+    height: 130px;
+    float: left;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.now_kind {
+    border: 1px solid #c4c4c4;
+    width: 70%;
+    float: left;
+    height: 100%;
+}
+
+#remind_kind {
+    padding-left: 0px;
+    text-align: center;
+    float: right;
+    margin-right: 26%;
+    margin-top: 10px;
+    cursor: default;
+}
+
+.kind {
+    height: 50px;
+    width: 121px;
+    border: 1px solid #c4c4c4;
+    float: left;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding-left: 45px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.kindsize {
+    height: 50px;
+    width: 150px;
+    border: 1px solid #c4c4c4;
+    float: left;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.fastsize {
+    height: 50px;
+    width: 70px;
+    border: 1px solid #c4c4c4;
+    float: left;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.shoesize {
+    height: 50px;
+    width: 70px;
+    border: 1px solid #c4c4c4;
+    float: left;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.my_info {
+    height: 350px;
+}
+
+.my_info .left {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.no_need {
+    float: right;
+    margin-right: 11%;
+    margin-top: 0.2%;
+}
+
+.my_info .right {
+    width: 65%;
+    height: 100%;
+    float: right;
+}
+
+
+
+#sel_kind {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-position: 60px 7px;
+}
+
+#kind {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-position: 60px 7px;
+}
+
+#sel_att {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-position: 60px 7px;
+}
+
+.remind {
+    float: right;
+    margin-right: 1%;
+}
+
+.mykind {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 850px;
+    background-color: #f5f5f5;
+}
+
+.mykind span {
+    margin: 12px 5px;
+    font-size: 18px;
+}
+
+.maybe {
+    height: 150px;
+    margin-top: 20px;
+    padding-left: 1%;
+}
+
+.content {
+    color: #565a5c;
+}
+
+.maybe .kind {
+    padding-left: 0px;
+    width: 120px;
+    background-position: 92px 7px;
+}
+
+#userdata {
+    height: 40px;
+    width: 275px;
+    float: right;
+    margin-right: 53px;
+}
+
+textarea {
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    display: block;
+    resize: none;
+}
+
+.content p {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.myuser {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.my_info .left p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#product_info {
+    margin-top: 15px;
+    width: 90%;
+}
+
+.myidentify {
+    margin: 30px auto;
+    height: 360px;
+}
+
+.color {
+"background-color", "#298BA3";
+}
+
+.select {
+    background-color: #fdb96e;
+    color: #fff;
+}
+
+.changeborder {
+    border: 1px solid #fdb96e;
+}
+
+.changeborder1 {
+    border: 1px solid #c4c4c4;
+}

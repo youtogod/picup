@@ -1,0 +1,11 @@
+.about_header{
+	
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-size:50px;
+	margin-bottom:50px;
+}
+.top1 .logo {
+background: url(../../img/logo/bat.png) no-repeat 0px -135px;
+}

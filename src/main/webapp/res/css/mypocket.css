@@ -1,0 +1,37 @@
+.czcontent{
+	width:900px;margin-left:150px;margin-right:150px;background-color:white;margin-top:30px;float:left;
+}
+
+.cztitle{
+	width:900px;height:40px;line-height:40px;padding-left:20px;font-size:18px;background-color:#f7f7f7;border:1px solid #e4e4e4;
+}
+.cz1{
+	width:100%;line-height:36px;padding-left:210px;margin-top:20px;
+}
+.cz2{
+	float:left;
+	width:100%;height:40px;line-height:36px;padding-left:225px;margin-top:15px;
+}
+
+label{
+	float:left;margin-right:10px;
+}
+.stitle{float:left;line-height:50px;}
+.sbox{width:400px;float:left;margin-left:10px;}
+.bankse{width:380px;height:50px;border:1px solid #e0e0e0;margin-bottom:15px;}
+.sel{margin-top:18px;margin-left:10px;float:left;}
+.bank{margin-left:50px;float:left;line-height:50px;font-size:16px;font-family:Microsoft YaHei;}
+.weihao{margin-right:40px;float:right;line-height:50px;font-size:16px;}
+.drop{width:400px;height:32px;margin-bottom:15px;cursor:pointer;}
+.mr10{margin-right:10px;}
+.fl{float:left;}
+.fr{float:right;}
+.ye{color:#595959;margin-left:10px;}
+.red{color:red;}
+.acard{
+	margin-right:5px;font-size:20px; color:rgb(39,169,73);
+}
+
+.forgetpass{
+	margin-left:10px;color:rgb(39,169,73);
+}

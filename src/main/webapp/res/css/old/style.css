@@ -1,0 +1,542 @@
+@font-face {
+	font-family:Hiragino Sans GB; 
+	src: url("../../fonts/Hiragino Sans GB W3.ttf");
+} 
+html
+{
+	height:100%;
+}
+
+.top1 .logo{
+	background:url(../../img/logo/bat.png) no-repeat 0px -135px;
+}
+.all_loading
+{
+	width:100%;
+}
+.all_loading img
+{
+	display:block;
+	margin:auto;
+	width:400px;
+	height:300px;
+}
+.content
+{
+	width:100%;
+	margin:auto;
+	height:auto;
+}
+p{
+	margin:0px;
+	padding:0px;
+
+}
+.loading
+{
+	    width: 17px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.addbutton
+{
+background-color: #235fa7;
+    color: white;
+    width: 150px;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.addbutton1
+{
+background-color: #235fa7;
+    color: white;
+    width: 120px;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#confirm
+{
+	width:300px;
+	height:160px;
+	border:1px solid #235fa7;
+	z-index:99999;
+	position: fixed;
+	top:50%;
+	display:none;
+	left:50%;
+	margin-left:-150px;
+	margin-top:-80px;
+	background-color:white;
+	box-shadow: 2px 2px 1px #A3C6F1;
+}
+.com_del{
+	width:25px;
+	height:27px;
+	position:absolute;
+	right:2px;
+	bottom:2px;
+	cursor:pointer;
+	display:none;
+	background: url("../../img/account/del.png") 0 0 no-repeat;
+	z-index:5;
+}
+#confirm .up
+{
+	width:100%;
+	height:30px;
+	background-color:#235fa7;
+	margin-bottom:20px;
+}
+#dis_confirm{
+	margin-top:30px;
+	}
+.foot button
+{
+	display:inline;
+    background-color: #235fa7;
+    color: white;
+    width: 80px;
+    border: 0;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom:10px;
+}
+.close{
+    width:30px;
+	height:30px;
+	position:absolute;
+	right:5px;
+	top:15px;
+	cursor:pointer;
+	background: url("../../img/account/delete.gif") 0 0 no-repeat;
+	z-index:5;
+}
+body
+{
+	padding:0;
+	margin:0;
+	height:100%;
+	font-family: "Hiragino Sans GB",Arial;
+}
+.head
+{
+
+    height: 100px;
+    background-color: #235fa7;
+    text-align: center;
+    color:white;
+    line-height: 100px;
+
+}
+.head span
+{
+	font-size:40px;
+}
+.mid
+{
+	width:100%;
+	position:relative;
+	min-height:900px;
+	background-color:#fafafa;
+}
+.mid .left
+{
+	position:absolute;
+	left:0;
+	background-color: #f5f5f5;
+	width:8%;
+	margin-left:7%;
+	height:31%;
+}
+.mid .left1
+{
+	position:absolute;
+	left:0;
+	background-color: #f5f5f5;
+	width:8%;
+	margin-left:7%;
+	height:33%;
+}
+.mid .left2
+{
+	position:absolute;
+	left:0;
+	background-color: #f5f5f5;
+	width:8%;
+	margin-left:7%;
+	height:39%;
+}
+
+.mid .right
+{
+	position:absolute;
+	right:0;
+	background-color: #f5f5f5;
+	width:20%;
+	min-height:900px;
+	height:100%;
+	top:0;
+}
+.mid .right .rightintro
+{
+	    width: 80%;
+    margin: auto;
+    margin-top: 250px;
+}
+.mid .left .step
+{
+	width:100%;
+	-webkit-padding-start:0;
+	-webkit-margin-before: 0;
+	    -webkit-margin-after: 0;
+	    padding:0;
+	    margin:0;
+	    text-align:center;
+}
+.mid .left1 .step
+{
+	width:100%;
+	-webkit-padding-start:0;
+	-webkit-margin-before: 0;
+	    -webkit-margin-after: 0;
+	    padding:0;
+	    margin:0;
+	    text-align:center;
+}
+.mid .left2 .step
+{
+	width:100%;
+	-webkit-padding-start:0;
+	-webkit-margin-before: 0;
+	    -webkit-margin-after: 0;
+	    padding:0;
+	    margin:0;
+	    text-align:center;
+}
+.mid .left .step li
+{
+	list-style-type:none;
+	height:70px;
+	font-size:16px;
+	line-height: 70px;
+	border-bottom:1px solid #c2c2c2;
+}
+.mid .left1 .step li
+{
+	list-style-type:none;
+	height:70px;
+	font-size:16px;
+	line-height: 70px;
+	border-bottom:1px solid #c2c2c2;
+}
+.mid .left2 .step li
+{
+	list-style-type:none;
+	height:70px;
+	font-size:16px;
+	line-height: 70px;
+	border-bottom:1px solid #c2c2c2;
+}
+.mid .center
+{	
+	padding-top:0px!important;
+	width:100%;
+	padding:0 5px;
+	padding-bottom:10px;
+	border-bottom:2px solid #c2c2c2;
+}
+.product_head{
+	margin:10px;
+}
+.mid .middle{
+	background-color:white;
+}
+.mid .middle h3
+{
+	margin-top:0;
+	padding-top:20px;
+}
+.mid .middle .finish
+{
+	width:100%;
+	text-align:center;
+	margin-bottom:20px;
+}
+.mid .middle .finish button,#addGoodsDetail
+{
+	display:inline;
+	margin:auto;
+	margin-top:20px;
+	background-color: #235fa7;
+	color:white;
+	width:150px;
+	border:0;
+	border-radius: 5px;
+	height:50px;
+	font-size:20px;
+}
+/* 确认按钮的样式 */
+.sure_button{
+	margin-top: 182px;
+	margin-left: 100px; 
+	background-color: #e6e6e6; 
+	color: black;
+	width:150px;
+	height:50px;
+	line-height:50px;
+	font-size:20px;
+	border-radius: 5px;
+}
+.confirm
+{
+    display: block;
+    margin-top: 15px;
+    background-color: #235fa7;
+    color: white;
+    width: 70px;
+    border: 0;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 18px;
+    float: right;
+    margin-right: 12px;
+}
+.mid .middle
+{
+	width:65%;
+	position:relative;
+	left:15%;
+	min-height:900px;
+	/* height:100%; 去掉这个高度*/
+	
+}
+.mid .middle .center .up
+{
+	width:100%;
+	overflow:hidden;
+	padding-bottom:20px;
+	border-bottom:1px solid #c2c2c2;
+	height: auto;
+    background-color: white;
+ 
+}
+.mid .middle .center .up .intro
+{
+	width:100%;
+	margin-top:20px;
+}
+.mid .middle .center .up .intro .introname
+{
+text-align: center;
+    line-height: 50px;
+    background-color: #f5f5f5;
+    display: inline-block;
+    width: 110px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.mid .middle .center .up .intro .plus
+{
+line-height: 50px;
+    background-color: #fff;
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    overflow: hidden;
+}
+.mid .middle .center .up .more
+{
+	line-height:150px;
+}
+.mid .middle .center .up .image
+{
+	margin-top:20px;
+	width:110px;
+	height:110px;
+	border:1px solid #c2c2c2;
+	margin-right:3%;
+	display: inline-block;
+	text-align:center;
+	position:relative;
+}
+.mid .middle .center .up .image img
+{
+	display:block;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	max-height:100%;
+	max-width:100%;
+} 
+.mid .middle .center .down
+{
+	width:100%;
+	margin-top: 20px;
+	overflow:hidden;
+	margin-bottom:30px;
+
+}
+.changed{
+	font-size:18px;
+	color:#235fa7;
+	font-weight:500;
+	cursor:pointer;
+	display:inline-block;
+	float:right
+}
+.mid .middle .center .down .next{
+	height:30px;
+	display:inline-block;
+}
+.mid .middle .center .down .downleft
+{
+	cursor:pointer;
+	width:200px;
+	height:200px;
+	border:2px solid #c2c2c2;
+	position:relative;
+	text-align: center;
+	margin-right: 30px;
+	float:left;
+	margin-bottom: 20px;
+	margin-top:30px;
+}
+.mid .middle .center .down .downleft img
+{
+display:block;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	max-height:100%;
+	max-width:100%;
+}
+.mid .middle .center .down .downleft img.img_de{
+	right:-122px;
+	bottom:-114px
+}
+.mid .middle .center .down .downright{
+	float:left;
+	margin-top:50px;
+	position:relative;
+} 
+.mid .middle .center .down .downright .nameinput
+{
+	width: 250px;
+	height: 30px;
+	margin-bottom:20px;
+	margin-left:5px;
+}
+.mid .middle .center .down .downright .money
+{
+	position:absolute;
+	left: 36px;
+    font-size: 20px;
+    color: red;
+}
+.mid .center h3
+{
+		font-family: "????";
+	font-size:25px;
+	font-weight: normal;
+	margin-bottom:20px;
+} 
+.mid .center p
+{
+	margin-bottom:20px;
+}
+.mid .center textarea
+{
+	height:200px;
+	resize: none;
+	width:100%;
+	display:block;
+	margin-bottom:40px;
+}
+.mid .center .middle
+{
+	border-bottom:2px solid #c2c2c2;
+}
+.popover
+{
+	width:100%;
+	position:relative;
+}
+.popover .evecover
+{
+	position: absolute;
+	z-index:1000;
+	top:66px;
+	left:0px;
+	width:100%;
+	height:76%;
+	opacity: 0.2;
+	background: #000 none repeat scroll 0% 0%;
+}
+.save{
+	background-color: #235fa7;
+    color: white;
+    width:80px;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+	position:absolute;
+	top:267px;
+	right:140px;
+}
+.file {
+    position: relative;
+    display: inline-block;
+    background: #235fa7;
+    border-radius: 5px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 30px;
+}
+.uploadbutton
+{
+	padding:20px;
+	border-bottom:2px solid #c2c2c2;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #3174C3;
+    color: white;
+    text-decoration: none;
+}
+.InlineBlock{
+	display:inline-block;
+	margin:5px 0;
+}
+.alter{
+	display:inline-block;
+	float:right;
+	cursor:pointer;
+	font-size: 18px;
+    color: #235fa7;
+    font-weight: 500;
+}

@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    box-sizing:content-box;
+}
+body{
+	padding:0;
+	margin:0;
+	height:100%;
+}
+.header{
+    height: 100px;
+    background-color: #235fa7;
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    line-height: 100px;
+cursor: default;
+}
+.top1 .logo{
+	background:url(../../img/logo/bat.png) no-repeat 0px -135px;
+}
+.nav{
+    width: 15%;
+    position: relative;
+
+}
+p{
+	margin:0px;
+	padding:0px;
+
+}
+.all_loading img{
+width:100px;
+height:100px;
+margin:auto;
+
+
+}
+.all_loading{
+display:none;
+}
+.btn-default {
+    color: #333;
+    background-color: #eeeeee;
+ 
+}
+#n_next img{
+float:left;
+
+width:20px;
+height:20px;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #235FA7;
+    border-color: #357EBD;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+p,span,ul{
+    cursor: default;
+}
+
+a{
+    cursor:pointer;
+}
+.right{
+    float: right;
+    margin-left: 10px;
+}
+.content1{
+    width: 65%;
+    position: relative;
+    left: 15%;
+min-height: 1000px;
+    background-color: white;
+padding: 10px;
+}
+.section{
+    width:20%;
+    position: absolute;
+    left: 80%;
+top: 100px;
+    padding-top: 100px;
+
+}
+.upload{
+    width: 100%;
+    height: 100%;
+    filter:alpha(opacity=0);  /* ie 有效*/
+    -moz-opacity:0; /* Firefox  有效*/
+    opacity: 0; /* 通用，其他浏览器  有效*/
+
+}
+#file,#file1{
+    float: left;
+    cursor: pointer;
+}
+.nav ul{
+    width:100% ;
+    position: absolute;
+    right: 0px;
+}
+.nav ul li{
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    border-bottom: 2px solid #cbcbcb;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+
+}
+
+.section p{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.bigfont{
+    font-size: 20px;
+}
+.upload_blue{
+    height: 40px;
+    width:100px;
+    line-height:40px;
+    color:white;
+    position:relative;
+    padding: 0px;       
+    cursor: pointer;
+    background-color:#235fa7;
+    border-radius:5px;
+    display:inline-block;  
+}
+.upload_blue .upload{      
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:inline-block;
+	}
+	.upload_kb_tips{
+	
+	height: 40px;
+    width:560px;
+    line-height:40px;
+    margin-left:20px;
+    padding: 0px;       
+    cursor: pointer;
+    display:inline-block; 
+	}
